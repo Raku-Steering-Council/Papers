@@ -21,7 +21,7 @@ models. So this proposal sticks to mature, well-known, previously
 tested processes as much as possible. The high-level approach of a
 mostly-hands-off council is arguably the most common across large
 successful F/OSS projects, and low-level details are derived
-directly from Python's governance, which is unfluence by Django's
+directly from Python's governance, which was influenced by Django's
 governance.
 * Be **simple**: Pare things down to the minimum needed to make it
 workable: the council, the core team (who elect the council), and
