@@ -43,21 +43,21 @@ Specification
 The Steering Council
 --------------------
 
-Composition
-~~~~~~~~~~~
+### Composition
+
 
 The Steering Council is a 7-person committee.
 
 
-Mandate
-~~~~~~~
+### Mandate
+
 
 The Steering Council shall work to:
 
-* Maintain the quality and stability of the Raku language and its
-interpreters.
-* Make contributing as accessible, inclusive, and sustainable as
-possible,
+* Maintain the quality and stability of the Raku language, its
+interpreters and its ecosystem.
+* Make contributing and learning it as accessible, inclusive, and sustainable as
+possible.
 * Formalize and maintain the relationship between the core team and
 The Raku Foundation,
 * Establish appropriate decision-making processes for problem solving
@@ -68,8 +68,8 @@ a formal capacity,
 methods have failed.
 
 
-Powers
-~~~~~~
+### Powers
+
 
 The Steering Council has broad authority to make decisions about thei
 project.  For example, it can:
@@ -99,8 +99,7 @@ Whenever possible, the council's deliberations and votes shall be held
 in public.
 
 
-Electing the council
-~~~~~~~~~~~~~~~~~~~~
+### Electing the council
 
 A council election consists of two phases:
 
@@ -125,16 +124,16 @@ The council should reflect the diversity of Raku contributors and users,
 and core team members are encouraged to vote accordingly.
 
 
-Term
-~~~~
+### Term
+
 
 A new Steering Council is elected after each language level release. Each
 council's term runs from when their election results are finalized until
 the next council's term starts. There are no term limits.
 
 
-Vacancies
-~~~~~~~~~
+### Vacancies
+
 
 Council members may resign their position at any time.
 
@@ -147,8 +146,7 @@ month or longer, then the rest of the council may vote to replace
 them.
 
 
-Conflicts of interest
-~~~~~~~~~~~~~~~~~~~~~
+### Conflicts of interest
 
 While we trust council members to act in the best interests of Raku
 rather than themselves or their employers, the mere appearance of any
@@ -167,11 +165,10 @@ then one or more council members must resign to remedy the issue, and
 the resulting vacancies can then be filled as normal.
 
 
-Ejecting core team members
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+### Ejecting core team members
 
 In exceptional circumstances, it may be necessary to remove someone
-from the core team against their will. (For example: egregious and
+from the core team against their will (for example: egregious and
 ongoing code of conduct violations.) This can be accomplished by a
 Steering Council vote, but unlike other Steering Council votes, this
 requires at least a two-thirds majority. With 7 members voting, this
@@ -184,8 +181,7 @@ If the ejected core team member is also on the Steering Council, then
 they are removed from the Steering Council as well.
 
 
-Vote of no confidence
-~~~~~~~~~~~~~~~~~~~~~
+### Vote of no confidence
 
 In exceptional circumstances, the core team may remove a sitting
 council member, or the entire council, via a vote of no confidence.
@@ -210,8 +206,8 @@ and a new council election is triggered immediately.
 The core team
 -------------
 
-Role
-~~~~
+### Role
+
 
 The core team is the group of trusted volunteers who manage Raku.
 They assume many roles required to achieve the project's goals,
@@ -231,15 +227,15 @@ website itself, the Raku GitHub organization and repositories, the bug
 tracker, the mailing lists, IRC channels, etc.
 
 
-Prerogatives
-~~~~~~~~~~~~
+### Prerogatives
+
 
 Core team members may participate in formal votes, typically to nominate new
 team members and to elect the Steering Council.
 
 
-Membership
-~~~~~~~~~~
+### Membership
+
 
 Raku core team members demonstrate:
 
