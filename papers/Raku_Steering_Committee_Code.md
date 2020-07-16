@@ -59,7 +59,7 @@ interpreters and its ecosystem.
 * Make contributing and learning it as accessible, inclusive, and sustainable as
 possible.
 * Formalize and maintain the relationship between the core team and
-The Raku Foundation,
+The Raku Foundation<sup id="a1">[1](#f1)</sup>,
 * Establish appropriate decision-making processes for problem solving
 proposals,
 * Seek consensus among contributors and the core team before acting in
@@ -71,12 +71,12 @@ methods have failed.
 ### Powers
 
 
-The Steering Council has broad authority to make decisions about thei
+The Steering Council has broad authority to make decisions about the
 project.  For example, it can:
 
 * Accept or reject problem-solving proposals
 * Enforce or update the project's code of conduct
-* Work with The Raku Foundation to manage any project assets
+* Work with The Raku Foundation<sup id="a1">[1](#f1)</sup> to manage any project assets
 * Delegate parts of its authority to other subcommittees or
 processes
 
@@ -311,3 +311,6 @@ Copyright
 
 Text copied from Django used under [their licens](https://github.com/django/django/blob/master/LICENSE>).  The rest of this document has been placed in the
 public domain.
+
+
+<b id="f1">1</b>Raku Foundation: As part of the "Yet Another Society", [Relationship with The Perl Foundation](https://github.com/Raku/problem-solving/blob/0ac3cb71be630f4b353c3e02775fb8d85d009530/solutions/language/Path-to-Raku.md#relationship-with-the-perl-foundation)  [↩](#a1)
