@@ -285,7 +285,7 @@ active privileges like voting or nominating for the Steering Council,
 and commit access.
 
 The initial active core team members will consist of everyone
-currently listed in the `"Raku" team on Github and the initial inactive
+currently listed in the "Raku" team on Github and the initial inactive
 members will consist of everyone else who has been a committer in the
 past.
 
