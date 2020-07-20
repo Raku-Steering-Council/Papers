@@ -1,0 +1,14 @@
+Aleks-Daniel Jakimenko-Aleksejev
+
+Even though Raku was started many years ago, even to this day it has
+an uncontrolled growth in all of the areas. More and more things are
+constantly being added on top of what already exists, with little to
+no thought on how the resulting monstrosity will work when everything
+is combined together.
+
+This repo is a prime example of that. If nominated, I will do my best
+to remove the Raku-Steering-Council repo, because we already have the
+problem-solving repo. Without this, the repos will conflict with each
+other. I agree that some good ideas can be introduced into the
+existing process, and interested parties are free to do at any time,
+but this can be done using what already exists.
