@@ -32,10 +32,9 @@ it should cover all the bases.  Having a clear and unambiguous
 set of rules also helps minimize confusion and resentment.
 * Be **flexible and light-weight**: It will take time and experimentation
 to find the best processes for working together. By keeping this
-propoasl as minimal as possible, maximal flexibility for adjusting
+proposal as minimal as possible, maximal flexibility for adjusting
 things later is retained, while minimizing the need for heavy-weight
 and anxiety-provoking processes like whole-project votes.
-
 
 Specification
 =============
@@ -118,22 +117,18 @@ For the initial election, both phases will last two weeks.
 
 The election process is managed by a returns officer nominated by the
 outgoing steering council. For the initial election, the returns
-officer will be Jonathan Worthington.
+officer will be Will Coleda.
 
 The council should reflect the diversity of Raku contributors and users,
 and core team members are encouraged to vote accordingly.
 
-
 ### Term
-
 
 A new Steering Council is elected after each language level release. Each
 council's term runs from when their election results are finalized until
 the next council's term starts. There are no term limits.
 
-
 ### Vacancies
-
 
 Council members may resign their position at any time.
 
@@ -180,7 +175,6 @@ power cannot be used while a vote of no confidence is in process.
 If the ejected core team member is also on the Steering Council, then
 they are removed from the Steering Council as well.
 
-
 ### Vote of no confidence
 
 In exceptional circumstances, the core team may remove a sitting
@@ -202,12 +196,10 @@ Steering Council and the resulting vacancy can be handled in the usual
 way. If a whole-council vote succeeds, the Steering Council is dissolved
 and a new council election is triggered immediately.
 
-
 The core team
 -------------
 
 ### Role
-
 
 The core team is the group of trusted volunteers who manage Raku.
 They assume many roles required to achieve the project's goals,
@@ -226,16 +218,12 @@ They have authority over the Raku infrastructure, including the Raku
 website itself, the Raku GitHub organization and repositories, the bug
 tracker, the mailing lists, IRC channels, etc.
 
-
 ### Prerogatives
-
 
 Core team members may participate in formal votes, typically to nominate new
 team members and to elect the Steering Council.
 
-
 ### Membership
-
 
 Raku core team members demonstrate:
 
@@ -264,8 +252,8 @@ infrastructure like packaging, etc.)
 Core team membership acknowledges sustained and valuable efforts that
 align well with the philosophy and the goals of the Raku project.
 
-It is granted by receiving at least two-thirds positive votes in a
-core team vote and no veto by the Steering Council.
+It is granted by receiving at least two-thirds positive votes of votes
+cast in a core team vote and no veto by the Steering Council.
 
 Core team members are always looking for promising contributors,
 teaching them how the project is managed, and submitting their names
@@ -284,10 +272,18 @@ will. While someone is in inactive status, though, they lose their
 active privileges like voting or nominating for the Steering Council,
 and commit access.
 
-The initial active core team members will consist of everyone
-currently listed in the "Raku" team on Github and the initial inactive
-members will consist of everyone else who has been a committer in the
-past.
+The initial active core team members will consist of everyone who has
+a commit bit in any the following repositories:
+
+- [Rakudo](https://github.com/rakudo/rakudo)
+- [NQP](https://github.com/raku/nqp)
+- [MoarVM](https://github.com/MoarVM/MoarVM)
+
+After the initial election, anybody who has not committed to these
+repositories in the past two years, and who also did not vote for the
+initial election, will be assumed to be inactive, and have their status
+changed to "inactive", thus revoking their voting rights until they've
+become active again and accepted by a core team vote.
 
 Changing this document
 ----------------------
@@ -295,14 +291,12 @@ Changing this document
 Changes to this document require at least a two-thirds majority of
 votes cast in a core team vote.
 
-
 Acknowledgements
 ================
 
 Most of this text was copied shamelessly from [The Python project's
 governance document](https://raw.githubusercontent.com/python/peps/master/pep-8016.rst),
 which was mostly copied from [Django's project's governance document](https://docs.djangoproject.com/en/dev/internals/organization/).
-
 
 Copyright
 =========
