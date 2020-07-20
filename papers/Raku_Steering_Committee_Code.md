@@ -285,11 +285,9 @@ active privileges like voting or nominating for the Steering Council,
 and commit access.
 
 The initial active core team members will consist of everyone
-currently listed in the `"Raku" team on Github
-<https://github.com/orgs/>`__, and the
-initial inactive members will consist of everyone else who has been a
-committer in the past.
-
+currently listed in the `"Raku" team on Github and the initial inactive
+members will consist of everyone else who has been a committer in the
+past.
 
 Changing this document
 ----------------------
@@ -309,7 +307,7 @@ which was mostly copied from [Django's project's governance document](https://do
 Copyright
 =========
 
-Text copied from Django used under [their licens](https://github.com/django/django/blob/master/LICENSE>).  The rest of this document has been placed in the
+Text copied from Django used under [their license](https://github.com/django/django/blob/master/LICENSE>).  The rest of this document has been placed in the
 public domain.
 
 
