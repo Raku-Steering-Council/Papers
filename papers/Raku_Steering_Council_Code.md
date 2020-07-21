@@ -54,7 +54,7 @@ The Steering Council is a 7-person committee.
 The Steering Council shall work to:
 
 * Maintain the quality and stability of the Raku language, its
-interpreters and its ecosystem.
+compilers and its ecosystem.
 * Make contributing and learning it as accessible, inclusive, and sustainable as
 possible.
 * Formalize and maintain the relationship between the core team and
@@ -245,7 +245,7 @@ joining the core team, in no particular order:
 - Providing expertise in a particular domain (security, i18n, etc.)
 - Managing the continuous integration infrastructure
 - Managing the servers (website, tracker, documentation, etc.)
-- Maintaining related projects (alternative interpreters, core
+- Maintaining related projects (alternative compilers, core
 infrastructure like packaging, etc.)
 - Creating visual designs
 
