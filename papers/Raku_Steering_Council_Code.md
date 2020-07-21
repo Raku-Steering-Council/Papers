@@ -119,9 +119,6 @@ The election process is managed by a returns officer nominated by the
 outgoing steering council. For the initial election, the returns
 officer will be Will Coleda.
 
-The council should reflect the diversity of Raku contributors and users,
-and core team members are encouraged to vote accordingly.
-
 ### Term
 
 A new Steering Council is elected after each language level release. Each
