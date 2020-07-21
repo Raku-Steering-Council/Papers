@@ -248,6 +248,8 @@ joining the core team, in no particular order:
 - Maintaining related projects (alternative interpreters, core
 infrastructure like packaging, etc.)
 - Creating visual designs
+- Other activities not on this list but considered useful for Raku
+language project
 
 Core team membership acknowledges sustained and valuable efforts that
 align well with the philosophy and the goals of the Raku project.
