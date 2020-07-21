@@ -89,10 +89,11 @@ standard process for problem-solving proposal decision making. It's better
 to establish a Code of Conduct committee than to rule on individual cases.
 And so on.
 
-To use its powers, the Steering Council votes. Every council member must
-either vote or explicitly abstain. Members with conflicts of interest on
-a particular vote must abstain. Passing requires support from a majority
-of non-abstaining council members.
+To use its powers, the Steering Council reaches concensus or votes. The
+consensus is reached when no council member objects to a decision. Otherwise the
+vote takes place. In this case every member must either vote or explicitly
+abstain. Members with conflicts of interest on a particular vote must abstain.
+Passing requires support from a majority of non-abstaining council members.
 
 Whenever possible, the council's deliberations and votes shall be held
 in public.
