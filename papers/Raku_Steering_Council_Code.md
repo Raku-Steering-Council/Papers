@@ -136,9 +136,15 @@ Whenever there is a vacancy during the regular council term, the
 council may vote to appoint a replacement to serve out the rest of the
 term.
 
-If a council member drops out of touch and cannot be contacted for a
-month or longer, then the rest of the council may vote to replace
-them.
+If a council member drops out of touch and cannot be contacted for a month or
+longer, then the rest of the council may vote to replace them. If the vote is
+successful the new council member will be chosen based on the last election
+results.  The non-elected candidate with the most votes is offered the position.
+If the offer is rejected then the next most-voted candidate is considered. 
+
+In case of a tie the rules of election will come into effect.
+
+A new election is started if no more candidates are left on the list.
 
 
 ### Conflicts of interest
