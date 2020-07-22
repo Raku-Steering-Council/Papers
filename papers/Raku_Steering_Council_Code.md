@@ -176,9 +176,9 @@ A vote of this kind is not limited by any terms and may last as long
 as it is necessary to make sure that either 5 votes are for the 
 ejection or 3 are against it.
 
-In addition, this is the one power of the Steering Council which cannot 
-be delegated, and this power cannot be used while a vote of no
-confidence is in process.
+In addition, this is the only power of the Steering Council which
+cannot be delegated, and this power cannot be used while a vote of
+no confidence is in process.
 
 If the ejected core team member is also on the Steering Council, then
 they are removed from the Steering Council as well. This case also 
