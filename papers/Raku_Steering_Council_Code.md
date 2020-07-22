@@ -221,7 +221,7 @@ tracker, the mailing lists, IRC channels, etc.
 ### Prerogatives
 
 Core team members may participate in formal votes, typically to nominate new
-team members and to elect the Steering Council.
+team members and to elect the Steering Council, as well as no confidence votes for the same Council.
 
 ### Membership
 
