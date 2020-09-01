@@ -27,4 +27,4 @@ Voting is open between midnight on September 6th UTC & midnight on September 20t
 ```
 ## Results
 
-Will Coleda will report election tallies in the https://github.com/Raku/Raku-Steering-Council repository after voting is concluded.
+Will Coleda will report election tallies in the https://github.com/Raku/Raku-Steering-Council repository after voting is concluded. The top 7 vote recipients will be considered winners.
