@@ -12,17 +12,17 @@ Voting is open between midnight on September 6th UTC & midnight on September 20t
 
 ## Checklist
 
-[ ] Aleks-Daniel Jakimenko-Aleksejev
-[ ] Brian Duggan
-[ ] Elizabeth Mattijsen
-[ ] Jonathan Worthington
-[ ] Juan-Julián Merelo-Guervós
-[ ] Richard Hainsworth
-[ ] nige123
-[ ] Patrick Spek
-[ ] Stefan Seifert
-[ ] ugexe
-[ ] Vadim Belman
+* [ ] Aleks-Daniel Jakimenko-Aleksejev
+* [ ] Brian Duggan
+* [ ] Elizabeth Mattijsen
+* [ ] Jonathan Worthington
+* [ ] Juan-Julián Merelo-Guervós
+* [ ] Richard Hainsworth
+* [ ] nige123
+* [ ] Patrick Spek
+* [ ] Stefan Seifert
+* [ ] ugexe
+* [ ] Vadim Belman
 
 ## Results
 
