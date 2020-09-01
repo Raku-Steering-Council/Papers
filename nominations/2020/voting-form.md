@@ -18,9 +18,9 @@ Voting is open between midnight on September 6th UTC & midnight on September 20t
 [ ] Elizabeth Mattijsen (@lizmat)
 [ ] Jonathan Worthington (@jnthn)
 [ ] Juan-Julián Merelo-Guervós (@JJ)
-[ ] Richard Hainsworth (@finanalyst)
 [ ] Nigel Hamilton (@nige123)
 [ ] Patrick Spek (@Tyil)
+[ ] Richard Hainsworth (@finanalyst)
 [ ] Stefan Seifert (@niner)
 [ ] @ugexe
 [ ] Vadim Belman (@vrurg)
