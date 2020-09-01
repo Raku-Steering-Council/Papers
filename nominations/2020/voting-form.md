@@ -4,7 +4,7 @@
 
 Original announcement: https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
 
-Please email your vote to will@coleda.com with the subject of "RSC 2020 Vote", including the checklist below in the body of the message.
+Please email your vote to Will Coleda (will@coleda.com) with the subject of "RSC 2020 Vote", including the checklist below in the body of the message.
 
 Please vote for 0-5 candidates below by placing an "X" in the brackets of each of those candidates below.
 
