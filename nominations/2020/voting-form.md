@@ -8,6 +8,8 @@ Please email your vote to will@coleda.com with the subject of "RSC 2020 Vote", i
 
 Please vote for 0-5 candidates below by placing an "X" in the brackets of each of those candidates below.
 
+Ballots containing more than 5 votes will not be counted. Will will reach out to you if time permits to correct or clarify invalid or unreadable ballots.
+
 Voting is open between midnight on September 6th UTC & midnight on September 20th UTC.
 
 ## Checklist
