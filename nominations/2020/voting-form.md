@@ -19,7 +19,7 @@ Voting is open between midnight on September 6th UTC & midnight on September 20t
 [ ] Jonathan Worthington (@jnthn)
 [ ] Juan-Julián Merelo-Guervós (@JJ)
 [ ] Richard Hainsworth (@finanalyst)
-[ ] @nige123
+[ ] Nigel Hamilton (@nige123)
 [ ] Patrick Spek (@Tyil)
 [ ] Stefan Seifert (@niner)
 [ ] @ugexe
