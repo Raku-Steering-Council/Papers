@@ -17,6 +17,7 @@ Voting is open between midnight on September 6th UTC & midnight on September 20t
 ```
 [ ] Aleks-Daniel Jakimenko-Aleksejev (@AlexDaniel)
 [ ] Brian Duggan (@bduggan)
+[ ] Daniel Sockwell (@codesections)
 [ ] Elizabeth Mattijsen (@lizmat)
 [ ] Jonathan Worthington (@jnthn)
 [ ] Juan-Julián Merelo-Guervós (@JJ)
