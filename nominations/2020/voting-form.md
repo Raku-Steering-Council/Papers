@@ -12,6 +12,7 @@ Please vote for 0-5 candidates below by placing an "X" in the brackets of each o
 
 Ballots containing more than 5 votes will not be counted. Will will reach out to you if time permits to correct or clarify invalid or unreadable ballots.
 
+Ballots must be sent from the email associated with your github ID so we can verify voting rights. Ballots that don't match will be rejected.
 
 ## Checklist
 
