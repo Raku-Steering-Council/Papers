@@ -1,5 +1,9 @@
 # Voting form for September 2020
 
+# THIS DOCUMENT IS A WORK IN PROGRESS
+
+Please wait until voting is open to fill out the document, as the process is being discussed in open issues.
+
 ## Voting process
 
 **Voting is open between midnight on September 6th UTC & midnight on September 20th UTC.**
