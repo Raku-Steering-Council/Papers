@@ -2,6 +2,8 @@
 
 ## Voting process
 
+**Voting is open between midnight on September 6th UTC & midnight on September 20th UTC.**
+
 Original announcement: https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
 
 Please email your vote to Will Coleda (will@coleda.com) with the subject of "RSC 2020 Vote", including the checklist below in the body of the message.
@@ -10,7 +12,6 @@ Please vote for 0-5 candidates below by placing an "X" in the brackets of each o
 
 Ballots containing more than 5 votes will not be counted. Will will reach out to you if time permits to correct or clarify invalid or unreadable ballots.
 
-Voting is open between midnight on September 6th UTC & midnight on September 20th UTC.
 
 ## Checklist
 
