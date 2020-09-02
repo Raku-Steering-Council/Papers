@@ -6,17 +6,19 @@
 
 Original announcement: https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md
 
-Please email your vote to Will Coleda (will@coleda.com) with the subject of "RSC 2020 Vote", including the checklist below in the body of the message.
+Please email your vote to Will Coleda (will@coleda.com) with the subject of "RSC 2020 Vote", including the BODY below in the body of the message.
 
 Please vote for 0-5 candidates below by placing an "X" in the brackets of each of those candidates below.
 
 Ballots containing more than 5 votes will not be counted. Will will reach out to you if time permits to correct or clarify invalid or unreadable ballots.
 
-Ballots must be sent from the email associated with your github ID so we can verify voting rights. Ballots that don't match will be rejected.
+Please enter your github ID in the first blank of the BODY.
 
-## Checklist
+## BODY
 
 ```
+Your github id: []
+
 [ ] Aleks-Daniel Jakimenko-Aleksejev (@AlexDaniel)
 [ ] Alexey Melezhik (@melezhik)
 [ ] Brian Duggan (@bduggan)
