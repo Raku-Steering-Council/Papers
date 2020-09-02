@@ -40,3 +40,5 @@ Your github id: []
 ## Results
 
 Will Coleda will report election tallies in the https://github.com/Raku/Raku-Steering-Council repository after voting is concluded. The top 7 vote recipients will be considered winners.
+
+Note: While individual ballots will *not* be published, a list of voter's email addresses will be published with the candidates results.
