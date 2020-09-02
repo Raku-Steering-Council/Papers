@@ -17,6 +17,7 @@ Ballots containing more than 5 votes will not be counted. Will will reach out to
 
 ```
 [ ] Aleks-Daniel Jakimenko-Aleksejev (@AlexDaniel)
+[ ] Alexey Melezhik (@melezhik)
 [ ] Brian Duggan (@bduggan)
 [ ] Daniel Sockwell (@codesections)
 [ ] Elizabeth Mattijsen (@lizmat)
