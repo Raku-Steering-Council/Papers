@@ -23,11 +23,11 @@ Ballots containing more than 5 votes will not be counted. Will will reach out to
 [ ] Elizabeth Mattijsen (@lizmat)
 [ ] Jonathan Worthington (@jnthn)
 [ ] Juan-Julián Merelo-Guervós (@JJ)
+[ ] Nick Logan (@ugexe)
 [ ] Nigel Hamilton (@nige123)
 [ ] Patrick Spek (@Tyil)
 [ ] Richard Hainsworth (@finanalyst)
 [ ] Stefan Seifert (@niner)
-[ ] @ugexe
 [ ] Vadim Belman (@vrurg)
 ```
 ## Results
