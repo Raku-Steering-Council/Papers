@@ -10,7 +10,7 @@ Please email your vote to Will Coleda (will@coleda.com) with the subject of "RSC
 
 Please vote for 0-5 candidates below by placing an "X" in the brackets of each of those candidates below.
 
-Ballots containing more than 5 votes will not be counted. Will will reach out to you if time permits to correct or clarify invalid or unreadable ballots.
+Ballots containing more than 5 votes will not be counted. Will will reach out to you if time permits to correct or clarify invalid or unreadable ballots. If you submit multiple ballots, only the most recent one received before the deadline will be counted.
 
 Please enter your github ID in the first blank of the BODY.
 
