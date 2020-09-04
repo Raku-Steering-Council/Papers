@@ -4,7 +4,7 @@
 
 **Voting is open between midnight on September 6th UTC & midnight on September 20th UTC.**
 
-Original announcement: https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md - Includes how to determine if you're eligible to vote.
+Original announcement: https://github.com/Raku/Raku-Steering-Council/blob/main/announcements/20200720.md - Includes how to determine if you're eligible to vote. See https://github.com/Raku/Raku-Steering-Council/blob/main/nominations/2020 for information about the candidates.
 
 Please email your vote to Will Coleda (will@coleda.com) with the subject of "RSC 2020 Vote", including the BODY below in the body of the message.
 
