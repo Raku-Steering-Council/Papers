@@ -32,7 +32,9 @@ Your github id: []
 [ ] Richard Hainsworth (@finanalyst)
 [ ] Stefan Seifert (@niner)
 [ ] Vadim Belman (@vrurg)
+[ ] William Michels (@jubilatious1)
 ```
+
 ## Results
 
 Will Coleda will report election tallies in the https://github.com/Raku/Raku-Steering-Council repository after voting is concluded. The top 7 vote recipients will be considered winners.
