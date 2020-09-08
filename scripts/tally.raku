@@ -33,7 +33,7 @@ my $voters = BagHash.new();
 for dir("votes").grep(/ '.eml' $/) -> $file {
     $ballot-count++;
 
-    my $msg = Email::MIME.new($file.IO.slurp);
+    my $msg = Email::MIME.new($file.IO.slurp: enc => 'utf8-c8');
     my $from = $msg.header('From');
     $voters{$from}++;
     my $checks =  $msg.parts()[0].body-raw();
