@@ -42,7 +42,7 @@ sub MAIN(:$q=False) {
     
         my $ballot = BagHash.new;
         for $checks.lines -> $line {
-            if $line ~~ / 'Your github id: ' '['? <( <-[\]]>* )> ']'? / {
+            if $line ~~ / 'Your github id: ' '['? '@'? <( <-[\]]>* )> ']'? / {
                 %github{$from} = ~$/;
                 next;
             }
