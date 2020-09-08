@@ -29,44 +29,58 @@ my $maximum-votes = 5;
 my $ballot-count;
 my $results = BagHash.new();
 my $voters = BagHash.new();
+my %github;
 
-for dir("votes").grep(/ '.eml' $/) -> $file {
-    $ballot-count++;
-
-    my $msg = Email::MIME.new($file.IO.slurp);
-    my $from = $msg.header('From');
-    $voters{$from}++;
-    my $checks =  $msg.parts()[0].body-raw();
-
-    my $ballot = BagHash.new;
-    for $checks.lines -> $line {
-        next unless $line ~~ /:i '[' <.ws> 'X' <.ws> ']' .* '(@' <( .* )>  ')'/;
-        $ballot{~$/}++;
+sub MAIN(:$q=False) {
+    for dir("votes").grep(/ '.eml' $/) -> $file {
+        $ballot-count++;
+    
+        my $msg = Email::MIME.new($file.IO.slurp: enc => 'utf8-c8');
+        my $from = $msg.header('From');
+        $voters{$from}++;
+        my $checks =  $msg.parts()[0].body-raw();
+    
+        my $ballot = BagHash.new;
+        for $checks.lines -> $line {
+            if $line ~~ / 'Your github id: ' '['? <( <-[\]]>* )> ']'? / {
+                %github{$from} = ~$/;
+                next;
+            }
+            next unless $line ~~ /:i '[' <.ws> 'X' <.ws> ']' .* '(@' <( .* )>  ')'/;
+            $ballot{~$/}++;
+        }
+        if $ballot.total > $maximum-votes {
+            give-up("Ballot cast by $from ($file) has too many votes: {$ballot.total}");
+        } else {
+            $results ⊎= $ballot;
+        }
     }
-    if $ballot.total > $maximum-votes {
-        give-up("Ballot cast by $from ($file) has too many votes: {$ballot.total}");
-    } else {
-        $results ⊎= $ballot;
+    
+    if !$ballot-count {
+        give-up("No ballots found");
     }
-}
-
-if !$ballot-count {
-    give-up("No ballots found");
-}
-
-say "$ballot-count ballots reporting";
-say '';
-
-for $results.sort:{-$_.value, $_.key.lc}  -> $candidate {
-    say sprintf("%20s%6d", '@' ~ $candidate.key, $candidate.value);
-}
-
-say "\nVoters:";
-for $voters.sort:{$_.key.lc} -> $voter {
-    if $voter.value > 1 {
-        give-up("{$voter.key} has multiple ballots");
-    };
-    say $voter.key;
+    
+    say "$ballot-count ballots reporting";
+    say '';
+    
+    for $results.sort:{-$_.value, $_.key.lc}  -> $candidate {
+        say sprintf("%20s%6d", '@' ~ $candidate.key, $candidate.value);
+    }
+   
+    unless $q {
+        say "\nVoters:";
+        for $voters.sort:{$_.key.lc} -> $voter {
+            if $voter.value > 1 {
+                give-up("{$voter.key} has multiple ballots");
+            };
+            print $voter.key;
+            if %github{$voter.key}:exists {
+                say ' (@' ~ %github{$voter.key} ~ ')';
+            } else {
+                say " NO GITHUB ID FOUND";
+            }
+        }
+    }
 }
 
 sub give-up($msg) {
