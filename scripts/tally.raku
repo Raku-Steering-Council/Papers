@@ -29,6 +29,7 @@ my $maximum-votes = 5;
 my $ballot-count;
 my $results = BagHash.new();
 my $voters = BagHash.new();
+my %github;
 
 sub MAIN(:$q=False) {
     for dir("votes").grep(/ '.eml' $/) -> $file {
@@ -41,6 +42,10 @@ sub MAIN(:$q=False) {
     
         my $ballot = BagHash.new;
         for $checks.lines -> $line {
+            if $line ~~ / 'Your github id: ' '['? <(.*)> ']'? / {
+                %github{$from} = ~$/;
+                next;
+            }
             next unless $line ~~ /:i '[' <.ws> 'X' <.ws> ']' .* '(@' <( .* )>  ')'/;
             $ballot{~$/}++;
         }
@@ -68,7 +73,12 @@ sub MAIN(:$q=False) {
             if $voter.value > 1 {
                 give-up("{$voter.key} has multiple ballots");
             };
-            say $voter.key;
+            print $voter.key;
+            if %github{$voter.key}:exists {
+                say ' (@' ~ %github{$voter.key} ~ ')';
+            } else {
+                say " NO GITHUB ID FOUND";
+            }
         }
     }
 }
