@@ -51,9 +51,14 @@ sub MAIN(:$q=False) {
         }
         if $ballot.total > $maximum-votes {
             give-up("Ballot cast by $from ($file) has too many votes: {$ballot.total}");
-        } else {
-            $results ⊎= $ballot;
         }
+
+        for $ballot.kv -> $candidate, $count {
+            next if $count eq 1;
+            give-up("Ballot cast by $from ($file) has too many votes for Candidate $candidate ($count)");
+        }
+
+        $results ⊎= $ballot;
     }
     
     if !$ballot-count {
