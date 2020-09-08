@@ -17,6 +17,7 @@ use Email::MIME;
 # Die immediately on processing if:
 #    * Any ballot has more than the maximum number of votes
 #    * Any email address has more than one ballot
+#    * Any ballot has more than one vote for a candidate
 # Expected resolution is to move the bad ballots out of the the way and solicit updated ballots as possible
 #
 # We don't care if someone sends in a vote for someone not on the suggested form. We'll consider this a write-in
@@ -55,7 +56,7 @@ sub MAIN(:$q=False) {
 
         for $ballot.kv -> $candidate, $count {
             next if $count eq 1;
-            give-up("Ballot cast by $from ($file) has too many votes for Candidate $candidate ($count)");
+            give-up("Ballot cast by $from ($file) has too many votes for candidate $candidate ($count)");
         }
 
         $results ⊎= $ballot;
