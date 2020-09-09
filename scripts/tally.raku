@@ -24,9 +24,10 @@ use Email::MIME;
 # and it will be dealt with after the results are posted.
 #
 # TODO: Consider processing Sent/Received Date? For now, manually managed by choosing which files to save as .emls
-
+# TODO: Updating ranking output to handle ties (current order is simply by count then alpha)
 
 my $maximum-votes = 5;
+my $maximum-winners = 7;
 my $ballot-count;
 my $results = BagHash.new();
 my $voters = BagHash.new();
@@ -68,9 +69,15 @@ sub MAIN(:$q=False) {
     
     say "$ballot-count ballots reporting";
     say '';
-    
+   
+    my $rank;
     for $results.sort:{-$_.value, $_.key.lc}  -> $candidate {
-        say sprintf("%20s%6d", '@' ~ $candidate.key, $candidate.value);
+        ++$rank;
+        say sprintf("%3s%20s%6d", 
+            $rank > $maximum-winners ?? "" !! $rank ~ ":",
+            '@' ~ $candidate.key,
+            $candidate.value
+        );
     }
    
     unless $q {
