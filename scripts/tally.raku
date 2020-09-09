@@ -86,7 +86,8 @@ sub MAIN(:$q=False) {
             if $voter.value > 1 {
                 give-up("{$voter.key} has multiple ballots");
             };
-            print $voter.key;
+            my $obfuscated = $voter.key.subst('@', ' nospam~at ');
+            print $obfuscated;
             if %github{$voter.key}:exists {
                 say ' (@' ~ %github{$voter.key} ~ ')';
             } else {
