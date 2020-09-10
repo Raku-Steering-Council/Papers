@@ -78,6 +78,7 @@ sub MAIN(:$q=False) {
             '@' ~ $candidate.key,
             $candidate.value
         );
+        say '' if $rank eq $maximum-winners;
     }
    
     unless $q {
