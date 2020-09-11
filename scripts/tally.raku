@@ -48,7 +48,7 @@ sub MAIN(:$q=False) {
                 %github{$from} = ~$/;
                 next;
             }
-            next unless $line ~~ /:i '[' <.ws> 'X' <.ws> ']' .* '(@' <( .* )>  ')'/;
+            next unless $line ~~ /:i '[' <.ws> <[X\+]> <.ws> ']' .* '(@' <( .* )>  ')'/;
             $ballot{~$/}++;
         }
         if $ballot.total > $maximum-votes {
