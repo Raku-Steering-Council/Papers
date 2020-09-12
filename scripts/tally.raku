@@ -34,6 +34,8 @@ my $voters = BagHash.new();
 my %github;
 
 sub MAIN(:$q=False) {
+    my $total-votes = 0;
+
     for dir("votes").grep(/ '.eml' $/) -> $file {
         $ballot-count++;
     
@@ -59,7 +61,7 @@ sub MAIN(:$q=False) {
             next if $count eq 1;
             give-up("Ballot cast by $from ($file) has too many votes for candidate $candidate ($count)");
         }
-
+        $total-votes += $ballot.total;
         $results ⊎= $ballot;
     }
     
@@ -67,7 +69,7 @@ sub MAIN(:$q=False) {
         give-up("No ballots found");
     }
     
-    say "$ballot-count ballots reporting";
+    say "$ballot-count ballots reporting (Average votes per ballot: { ($total-votes / $ballot-count).fmt("%d") })";
     say '';
    
     my $rank;
@@ -81,19 +83,17 @@ sub MAIN(:$q=False) {
         say '' if $rank eq $maximum-winners;
     }
    
-    unless $q {
-        say "\nVoters:";
-        for $voters.sort:{$_.key.lc} -> $voter {
-            if $voter.value > 1 {
-                give-up("{$voter.key} has multiple ballots");
-            };
-            my $obfuscated = $voter.key.subst('@', ' nospam~at ');
-            print $obfuscated;
-            if %github{$voter.key}:exists {
-                say ' (@' ~ %github{$voter.key} ~ ')';
-            } else {
-                say " NO GITHUB ID FOUND";
-            }
+    say "\nVoters:" unless $q;
+    for $voters.sort:{$_.key.lc} -> $voter {
+        if $voter.value > 1 {
+            give-up("{$voter.key} has multiple ballots");
+        };
+        my $obfuscated = $voter.key.subst('@', ' nospam~at ');
+        print $obfuscated unless $q;
+        if %github{$voter.key}:exists {
+            say ' (@' ~ %github{$voter.key} ~ ')' unless $q;
+        } else {
+            say " NO GITHUB ID FOUND" unless $q;
         }
     }
 }
