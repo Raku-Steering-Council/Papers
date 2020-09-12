@@ -38,18 +38,33 @@ sub MAIN(:$q=False) {
 
     for dir("votes").grep(/ '.eml' $/) -> $file {
         $ballot-count++;
-    
+
+        my $ballot = BagHash.new;
         my $msg = Email::MIME.new($file.IO.slurp: enc => 'utf8-c8');
         my $from = $msg.header('From');
+
         $voters{$from}++;
+
+        # Get the text/plain part of the message
         my $checks =  $msg.parts()[0].body-raw();
-    
-        my $ballot = BagHash.new;
-        for $checks.lines -> $line {
-            if $line ~~ / 'Your github id: ' '['? '@'? <( <-[\]]>* )> ']'? / {
-                %github{$from} = ~$/;
-                next;
-            }
+
+        # Handle QP encoding - hex encoding...
+        $checks = S:i:g[ '='  ( <[0..9a..f]> <[0..9a..f]> )] = (~$0).parse-base(16).chr given $checks;
+        # Handle QP encodding - soft line breaks;
+        $checks = S:g[ '=' \n] = ' ' given $checks;
+
+        # however, some clients wrapped the lines but didn't include the breaks.
+        # so remove *all* newlines
+        $checks = S:g[ \n ] = ' ' given $checks;
+
+        if $checks ~~ / 'Your github id: ' '['? '@'? <( <-[\]]>* )> ']'? / {
+            %github{$from} = ~$/;
+        } else {
+            give-up("Couldn't find a github ID for $from");
+        }
+
+        # Now split on the ballot check boxes instead
+        for $checks.join(' ').split(/ <?before '['>/) -> $line {
             next unless $line ~~ /:i '[' <.ws> <[X\+]> <.ws> ']' .* '(@' <( .* )>  ')'/;
             $ballot{~$/}++;
         }
@@ -64,25 +79,25 @@ sub MAIN(:$q=False) {
         $total-votes += $ballot.total;
         $results ⊎= $ballot;
     }
-    
+
     if !$ballot-count {
         give-up("No ballots found");
     }
-    
+
     say "$ballot-count ballots reporting (Average votes per ballot: { ($total-votes / $ballot-count).fmt("%0.1f") })";
     say '';
-   
+
     my $rank;
     for $results.sort:{-$_.value, $_.key.lc}  -> $candidate {
         ++$rank;
-        say sprintf("%3s%20s%6d", 
+        say sprintf("%3s%20s%6d",
             $rank > $maximum-winners ?? "" !! $rank ~ ":",
             '@' ~ $candidate.key,
             $candidate.value
         );
         say '' if $rank eq $maximum-winners;
     }
-   
+
     say "\nVoters:" unless $q;
     for $voters.sort:{$_.key.lc} -> $voter {
         if $voter.value > 1 {
