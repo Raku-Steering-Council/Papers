@@ -66,7 +66,7 @@ sub MAIN(:$q=False) {
 
         # Now split on the ballot check boxes instead
         for $checks.join(' ').split(/ <?before '['>/) -> $line {
-            next unless $line ~~ /:i '[' <.ws> <[X\+]> <.ws> ']' .* '(@' <( .* )>  ')'/;
+            next unless $line ~~ /:i '[' <.ws> <[X\+]> <.ws> ']' .* '(@' <( .*? )>  ')'/;
             $ballot{~$/}++;
         }
         if $ballot.total > $maximum-votes {
