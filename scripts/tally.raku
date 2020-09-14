@@ -50,8 +50,9 @@ sub MAIN(:$q=False) {
 
         # Handle QP encoding - hex encoding...
         $checks = S:i:g[ '='  ( <[0..9a..f]> <[0..9a..f]> )] = (~$0).parse-base(16).chr given $checks;
-        # Handle QP encodding - soft line breaks;
-        $checks = S:g[ '=' \n] = ' ' given $checks;
+
+        # Handle QP encoding - soft line breaks;
+        $checks = S:g[ '=' \n] = '' given $checks;
 
         # however, some clients wrapped the lines but didn't include the breaks.
         # so remove *all* newlines
