@@ -61,8 +61,8 @@ sub MAIN(:$q=False) {
         # so remove *all* newlines
         $checks = S:g[ \n ] = ' ' given $checks;
 
-        if $checks ~~ / 'Your github id: ' '['? '@'? <( <-[\]]>* )> ']'? / {
-            %github{$from} = ~$/;
+        if $checks ~~ / 'Your github id: ' '['? '@'? <( <-[\]\[]>* )> ']'? / {
+            %github{$from} = ~$/.trim;
         } else {
             give-up("Couldn't find a github ID for $from");
         }
