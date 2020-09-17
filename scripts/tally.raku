@@ -88,7 +88,7 @@ sub MAIN(:$q=False) {
         give-up("No ballots found");
     }
 
-    say "$ballot-count ballots reporting (Average votes per ballot: { ($total-votes / $ballot-count).fmt("%0.1f") })";
+    say "$ballot-count ballots reporting (Average votes per ballot: { ($total-votes / $ballot-count).fmt("%0.2f") })";
     say '';
 
     my $rank;
