@@ -1,0 +1,81 @@
+Results for September 2020 voting, tabulated by @coke
+
+48 ballots reporting (Average votes per ballot: 4.67)
+
+ 1:              @jnthn    42
+ 2:             @lizmat    37
+ 3:              @niner    27
+ 4:                 @JJ    25
+ 5:       @codesections    17
+ 6:         @AlexDaniel    16
+ 7:              @ugexe    16
+
+                 @vrurg    14
+                  @Tyil     9
+               @bduggan     8
+            @finanalyst     6
+          @jubilatious1     4
+               @nige123     3
+
+Voters:
+=?UTF-8?Q?Antonio_G=C3=A1miz_Delgado?= <antoniogamiz10 nospam~at gmail.com> (@antoniogamiz)
+Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko nospam~at gmail.com> (@AlexDaniel)
+Alexander Kiryuhin <alexander.kiryuhin nospam~at gmail.com> (@Altai-man)
+Alexey Melezhik <melezhik nospam~at gmail.com> (@melezhik)
+Barry Keeling <barryfoxbat nospam~at btinternet.com> (@3990488)
+Ben Davies <kaiepi nospam~at outlook.com> (@Kaiepi)
+Brad Gilbert <b2gills nospam~at gmail.com> (@b2gills)
+Brian Duggan <bduggan nospam~at matatu.org> (@bduggan)
+Brian Gernhardt <brian nospam~at gernhardtsoftware.com> (@benabik)
+Bruce Gray <robertbrucegray3 nospam~at gmail.com> (@Util)
+Cameron Stuart <cam.asoftware nospam~at gmail.com> (@camstuart)
+Christian =?utf-8?Q?Bartolom=C3=A4us?= <use_v6 nospam~at aglaz.de> (@usev6)
+Claudio Ramirez <claudio nospam~at apt-get.be> (@nxadm)
+Clifton Wood <clifton.wood nospam~at gmail.com> (@Xliff)
+Curt Tilmes <curt nospam~at tilmes.org> (@CurtTilmes)
+Damian Conway <damian nospam~at conway.org> (@thoughtstream)
+Daniel Green <ddgreen nospam~at gmail.com> (@masterduke17)
+daniel nospam~at codesections.com (@codesections)
+Donald Hunter <donald nospam~at sealgair.com> (@donaldh)
+Elizabeth Mattijsen <liz nospam~at dijkmat.nl> (@lizmat)
+Garrett Goebel <garrett.goebel nospam~at gmail.com> (@ggoebel)
+JJ Merelo <jjmerelo nospam~at gmail.com> (@JJ)
+Jonathan Worthington <jonathan nospam~at edument.cz> (@jnthn)
+Juerd Waalboer <juerd nospam~at tnx.nl> (@Juerd)
+Justin DeVuyst <justin nospam~at devuyst.com> (@jdv)
+Leon Timmermans <fawaka nospam~at gmail.com> (@leont)
+Luc St-Louis <lucs nospam~at pobox.com> (@lucs)
+Madeleine Goebel <madeleine.goebel nospam~at gmail.com> (@14813045)
+Matthew Stuckwisch <mateu nospam~at softastur.org> (@alabamenhu)
+Matthias Bloch <matthias.bloch nospam~at puffin.ch> (@maettu)
+Moritz Lenz <moritz.lenz nospam~at gmail.com> (@moritz)
+Naoum Hankache <naoum88 nospam~at gmail.com> (@hankache)
+Nick Logan <nlogan nospam~at gmail.com> (@ugexe)
+Nigel Hamilton <nige nospam~at 123.do> (@nige123)
+Patrick =?ISO-8859-1?Q?B=F6ker?= <patrick.boeker nospam~at posteo.de> (@patrickbkr)
+Randy Lauen <randy.lauen nospam~at gmail.com> (@randyl)
+Richard Hainsworth <rnhainsworth nospam~at gmail.com> (@finanalyst)
+Roman Baumer <roman nospam~at baumer.org> (@rba)
+Salvador Ortiz <sog nospam~at msg.mx> (@salortiz)
+Salve J Nilsen <sjn nospam~at pvv.org> (@sjn)
+Simon Proctor <simon.proctor nospam~at gmail.com> (@Scimon)
+Solomon Foster <colomon nospam~at gmail.com> (@colomon)
+Timo Paulssen <timo nospam~at wakelift.de> (@timo)
+Tobias Boege <tobs nospam~at taboege.de> (@taboege)
+Tom Browder <tom.browder nospam~at gmail.com> (@tbrowder)
+Vadim Belman <vrurg nospam~at lflat.org> (@vrurg)
+William Michels <wjm1 nospam~at caa.columbia.edu> (@jubilatious1)
+Wim Vanderbauwhede <wim.vanderbauwhede nospam~at mail.be> (@wimvanderbauwhede)
+
+Notes:
+
+Voting technically should have ended as Sep-20 started, but due to the potentially
+confusing use of "midnight", voting was left open until the end of the 20th. A
+small number of ballots were received during these last 24 hours.
+
+Several ballots were submitted by people without commit bits. Discussion on #raku on
+IRC resulted in inviting some of the voters an invitation to have a commit bit based
+on their history of activity in the community.
+
+Users who were sent an invitation (which occurred before the end of voting period)
+had their ballots counted.
