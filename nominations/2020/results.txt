@@ -18,7 +18,7 @@ Results for September 2020 voting, tabulated by @coke
                @nige123     3
 
 Voters:
-=?UTF-8?Q?Antonio_G=C3=A1miz_Delgado?= <antoniogamiz10 nospam~at gmail.com> (@antoniogamiz)
+Antonio Gámiz Delgado <antoniogamiz10 nospam~at gmail.com> (@antoniogamiz)
 Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko nospam~at gmail.com> (@AlexDaniel)
 Alexander Kiryuhin <alexander.kiryuhin nospam~at gmail.com> (@Altai-man)
 Alexey Melezhik <melezhik nospam~at gmail.com> (@melezhik)
@@ -29,7 +29,7 @@ Brian Duggan <bduggan nospam~at matatu.org> (@bduggan)
 Brian Gernhardt <brian nospam~at gernhardtsoftware.com> (@benabik)
 Bruce Gray <robertbrucegray3 nospam~at gmail.com> (@Util)
 Cameron Stuart <cam.asoftware nospam~at gmail.com> (@camstuart)
-Christian =?utf-8?Q?Bartolom=C3=A4us?= <use_v6 nospam~at aglaz.de> (@usev6)
+Christian Bartolomäus <use_v6 nospam~at aglaz.de> (@usev6)
 Claudio Ramirez <claudio nospam~at apt-get.be> (@nxadm)
 Clifton Wood <clifton.wood nospam~at gmail.com> (@Xliff)
 Curt Tilmes <curt nospam~at tilmes.org> (@CurtTilmes)
