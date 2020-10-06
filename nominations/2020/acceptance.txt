@@ -14,4 +14,6 @@ I accept - @JJ
 
 I accept - @AlexDaniel
 
+# resigned from RSC per:
+# https://6guts.wordpress.com/2020/10/05/taking-a-break-from-raku-core-development/
 I accept - @jnthn
