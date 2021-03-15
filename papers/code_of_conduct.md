@@ -13,8 +13,8 @@ religion, nationality, or other similar characteristic.
 
 Many people have eloquently described the -Ofun community culture to
 which we aspire.  In the interest of clarity and concision, this
-document does not do so; instead, it provides a short, readable list of
-unacceptable behaviors so that we're all on the same page about the
+document does not do so; instead, it provides a short, readable list
+of unacceptable behaviors so that we're all on the same page about the
 ground rules in our particular community.
 
 The purpose of this CoC is _exclusively_ to ensure that the Raku
