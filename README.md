@@ -9,3 +9,4 @@ Important documents so far are:
 
 - [Raku Governance Code](https://github.com/Raku/RSC/blob/main/papers/Raku_Steering_Council_Code.md)
 - [Initial election announcement](https://github.com/Raku/RSC/blob/main/announcements/20200720.md)
+- [Code of conduct](https://github.com/Raku/Raku-Steering-Council/blob/main/papers/code_of_conduct.md)
