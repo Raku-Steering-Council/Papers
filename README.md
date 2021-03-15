@@ -1,6 +1,6 @@
 # Raku Steering Council
 
-This repository contains all information about the Raku Steering Council.
+This repository contains all public information about the Raku Steering Council.
 
 It is a work ever in progress, and intended for record keeping on decisions
 made by the Raku Steering Council.
