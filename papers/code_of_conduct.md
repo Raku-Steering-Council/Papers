@@ -106,7 +106,7 @@ Conduct:
 Covered Spaces
 ==============
 
-This CoC applies to the #raku, #raku-dev, and #moarvm IRC channels; the
+This CoC applies to the `#raku`, `#raku-dev`, and `#moarvm` IRC channels; the
 GitHub repositories under the Raku, Rakudo, and MoarVM organizations;
 the perl6/Raku mailing lists; the Raku Discord channel; the r/rakulang
 subreddit; posts to Rakudo Weekly News; blogs posted to Planet Raku; and
