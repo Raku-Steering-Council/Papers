@@ -1,3 +1,7 @@
+<!-- This is a copy created for the sole purpose of being rendered -->
+<!-- correctly on the web, which didn't happen with the other file, -->
+<!-- for some reasons I can't really fathom -->
+
 Raku Code of Conduct
 ====================
 
