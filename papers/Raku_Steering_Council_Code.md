@@ -19,7 +19,7 @@ The Steering Council
   allows anyone to suggest, discuss, and agree to on major changes to
   Raku.  The Problem Solving process is described at
   [Raku/problem-solving](https://github.com/Raku/problem-solving) and
-  is intended to be the main way major Raku decisions are reached.
+  is the preferred way to reach major decisions that impact Raku.
 
 * **The Core Team** – Contributors to the Raku language who are
   trusted to make changes to major Raku repositories.  Criteria for
@@ -59,7 +59,7 @@ The Steering Council has broad authority to make decisions about the
 project.  For example, it can:
 
 * Accept or reject Problem Solving proposals (as described in the
-  Problem Solving [README](https://github.com/Raku/problem-solving))
+  [Problem Solving README](https://github.com/Raku/problem-solving))
 * Enforce or update the project's [Code of
   Conduct](https://github.com/Raku/Raku-Steering-Council/blob/main/papers/code_of_conduct.md)
 * Work with The Raku Foundation to manage any project assets
@@ -67,7 +67,7 @@ project.  For example, it can:
 processes
 
 However, the RSC cannot modify this Code, or affect the membership of
-the Core Team, except via the mechanisms specified in this proposal.
+the Core Team, except via the mechanisms specified in this Code.
 
 The Steering Council should look for ways to use these powers as little
 as possible. Instead of voting, it's better to seek consensus. Instead of
