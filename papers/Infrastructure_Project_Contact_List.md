@@ -1,6 +1,6 @@
 # RAKU INFRASTRUCTURE PROJECT LIST
 
-This paper is intended to hold a list of Raku infrastructures projects where
+This document is intended to hold a list of Raku infrastructures projects where
 maintainers are looking for volunteers to join them in their duties.
 
 ## Adding A Project To The List
