@@ -15,7 +15,7 @@ LIST_ section and contain the following elements:
 3. Perhaps a few words on what kind of help is required.
 4. Maintainer contact information. This could be anything that would allow a
    volunteer to get in touch with you: an email (though don't forget to take
-   necessary measures to complicate spammers life), and IRC handle, a social
+   necessary measures to complicate spammers life), an IRC handle, a social
    network contact, etc.
 
 For example, a new entry may look like this:
