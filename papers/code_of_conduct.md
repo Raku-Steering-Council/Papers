@@ -53,7 +53,7 @@ violate the Code of Conduct.
 * Any public or private harassment.
 * Refusing to agree to follow the existing CoC (arguing that the CoC
   should be changed is fine when done in an appropriate venue; refusing
-  to follow the exiting CoC is not).
+  to follow the existing CoC is not).
 * Falsely reporting a CoC violation in bad faith.
 
 Non Defenses
