@@ -9,11 +9,30 @@ take priority over strictly following the procedures described below.
 
 This guide is not legal advice.
 
+Pre-Incident Setup
+==================
+
+The CoC is enforced by the Raku Community Affairs Team.  To be able to
+promptly respond to CoC incidents, the CAT should:
+
+  * Exchange contact information, including contact methods that allow
+    them to be reached in more urgent situations (e.g., phone numbers).
+
+  * Ensure that each CAT member has the credentials needed to post
+    announcements on behalf of the CAT when the group has decided on a
+    response.
+
+  * Ensure that, to the extent possible, each CAT member can access the
+    credentials needed to ban someone from any Raku space and/or remove
+    media from that space (probably via a password manager or other
+    credential-management software).
+
+  * For cases where it is not practicable for all CAT members to have
+    the necessary credentials, the CAT should clearly document the
+    process for banning someone/removing media (e.g., who to contact).
+
 Before Taking Action
 ====================
-
-The CoC is enforced by the Raku Community Affairs Team (currently
-comprised of the members of the Raku Steering Council).
 
 When the CAT receives a report of a CoC violation, any members who are
 the subject of the report or who have an actual or apparent conflict
@@ -22,13 +41,19 @@ in further actions nor access information about the report or the
 CAT's response.
 
 Barring extraordinary circumstances, the CAT will act on all reports
-within 72 hours of first receiving the report.  The CAT will act by
-majority vote and, if practicable, should hold a synchronous meeting
-(e.g., a video call) with at least 3 attendees to vote on its action.
-However, due to the importance of promptly responding to reports, the
-CAT may also act via asynchronous discussion and voting (e.g., over
-email).  If it does so, it may set a deadline after which failure to
-cast an explicit vote will be treated as an abstention.
+within 72 hours of first receiving the report.  Due to the importance of
+promptly responding to reports, the CAT may act via either synchronous
+meetings or via asynchronous discussion/voting (e.g., over email).
+The CAT should attempt to act by consensus but, when consensus cannot be
+reached, it may act by simple majority vote.
+
+To enable prompt responses, CAT members should strive to be generally
+responsive or to communicate that they are unavailable to respond to a
+particular incident and are therefore abstaining.  If a CAT member does
+not respond to the discussion of an incident within 48 hours, they can
+be treated as abstaining from any vote on that incident.  If a vote
+occurs after some discussion, CAT members may set a reasonable deadline
+after which non-responses will be treated as abstentions from that vote.
 
 Investigating the Incident
 --------------------------
@@ -106,6 +131,16 @@ any other action it deems appropriate:
   Raku core team.
 * Recommending that the Raku Steering Council eject the violator from the
   Raku core team and permanently banning them from the Raku community.
+
+Time is sometimes of the essence when responding to a CoC incident.
+Accordingly, without prior input from other CAT members, any member of
+the CAT may impose a ban of up to 48 hours and/or temporarily remove or
+edit media that appears to violate the CoC.  If a CAT member takes
+action in this way, the rest of the CAT should discuss the incident
+(including the possibility of an additional response) and participate in
+drafting the summary of the incident (see [After Taking
+Action](#After_Taking_Action), below).
+
 
 Disallowed Responses
 --------------------
@@ -240,5 +275,3 @@ Reports](https://frameshiftconsulting.com/code-of-conduct-book/).  If
 doing so would be helpful, the CAT may also consult with the Community
 Affairs Team or Legal Committee at Yet Another Society or with other
 outside advisors.
-
-
