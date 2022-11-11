@@ -1,4 +1,4 @@
-Raku Code of Conduct
+Raku Code of Conduct 
 ====================
 
 The Raku community is committed to providing a welcoming, inclusive,
