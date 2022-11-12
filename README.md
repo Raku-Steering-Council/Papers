@@ -11,7 +11,7 @@ Important documents so far are:
 - [Initial election announcement](https://github.com/Raku/RSC/blob/main/announcements/20200720.md)
 - [Code of conduct](papers/Raku_Code_of_Conduct) - [source](https://github.com/Raku/Raku-Steering-Council/blob/main/papers/Raku_Code_of_Conduct.md).
 
-A full list of RSC papers is avalible on the [Papers](papers) page.
+A full list of RSC papers is available on the [Papers](papers) page.
 
 The current Raku Steering council members are (in alphabetical order):
 
