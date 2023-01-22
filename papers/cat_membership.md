@@ -3,6 +3,5 @@ The current members of the Raku Community Affairs Team are (in alphabetical orde
     Vadim Belman
     Geoffrey Broadwell
     Nick Logan
-    JJ Merelo
     Stefan Seifert
     Daniel Sockwell

@@ -19,6 +19,5 @@ The current Raku Steering council members are (in alphabetical order):
 - Geoffrey Broadwell
 - Nick Logan
 - Elizabeth Mattijsen
-- JJ Merelo
 - Stefan Seifert
 - Daniel Sockwell
