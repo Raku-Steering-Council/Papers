@@ -17,6 +17,7 @@ The current Raku Steering council members are (in alphabetical order):
 
 - Vadim Belman
 - Geoffrey Broadwell
+- Richard Hainsworth
 - Nick Logan
 - Elizabeth Mattijsen
 - Stefan Seifert
