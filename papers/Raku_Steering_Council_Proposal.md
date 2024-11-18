@@ -1,11 +1,40 @@
 Abstract
 ========
 
-This document establishes the structure of governance for the Raku
-language and community.  Raku is governed by the Problem Solving
-process, the Core Team and the Raku Steering Council.  As set out
-below, the RSC has broad authority but seeks to exercise that
-authority as rarely as possible.
+This document proposes a model of Raku governance based around a steering
+council. The council has broad authority, which they seek to exercise
+as rarely as possible; instead, they use this power to establish
+standard processes.  It follows the general philosophy that it's better
+to split up large changes into a series of small changes that can be
+reviewed independently: instead of trying to do everything in one proposal,
+focus is on providing a minimal-but-solid foundation for further governance
+decisions.
+
+Rationale
+=========
+
+The main goals of this proposal are:
+
+* Be **boring**: We're not experts in governance, and we don't think
+Raku is a good place to experiment with new and untried governance
+models. So this proposal sticks to mature, well-known, previously
+tested processes as much as possible. The high-level approach of a
+mostly-hands-off council is arguably the most common across large
+successful F/OSS projects, and low-level details are derived
+directly from Python's governance, which was influenced by Django's
+governance.
+* Be **simple**: Pare things down to the minimum needed to make it
+workable: the council, the core team (who elect the council), and
+the process for changing the document. The goal is Minimum Viable
+Governance.
+* Be **comprehensive**: But for the things that need to be defined,
+it should cover all the bases.  Having a clear and unambiguous
+set of rules also helps minimize confusion and resentment.
+* Be **flexible and light-weight**: It will take time and experimentation
+to find the best processes for working together. By keeping this
+proposal as minimal as possible, maximal flexibility for adjusting
+things later is retained, while minimizing the need for heavy-weight
+and anxiety-provoking processes like whole-project votes.
 
 Specification
 =============
@@ -13,24 +42,10 @@ Specification
 The Steering Council
 --------------------
 
-### Definitions 
+### Composition
 
-* **The Problem Solving process** – The consensus-driven process that
-  allows anyone to suggest, discuss, and agree to on major changes to
-  Raku.  The Problem Solving process is described at
-  [Raku/problem-solving](https://github.com/Raku/problem-solving) and
-  is the preferred way to reach major decisions that impact Raku.
 
-* **The Core Team** – Contributors to the Raku language who are
-  trusted to make changes to major Raku repositories.  Criteria for
-  Core Team membership is described later in this document, and
-  current Core Team members are [listed
-  publicly](https://github.com/Raku/Raku-Steering-Council/blob/main/papers/Core_Team.md).
-  
-* **The Raku Foundation** – An alias for Yet Another Society, which is
-  also known by the alias The Perl Foundation (TPF).
-
-* **The Raku Steering Council (RSC)** – a 7-member group established by this document.
+The Steering Council is a 7-person committee.
 
 
 ### Mandate
@@ -42,11 +57,11 @@ The Steering Council shall work to:
 compilers and its ecosystem.
 * Make contributing and learning it as accessible, inclusive, and sustainable as
 possible.
-* Formalize and maintain the relationship between the Core Team and
-The Raku Foundation.
-* Establish appropriate decision-making processes for Problem Solving
+* Formalize and maintain the relationship between the core team and
+The Raku Foundation<sup id="a1">[1](#f1)</sup>,
+* Establish appropriate decision-making processes for problem solving
 proposals,
-* Seek consensus among contributors and the Core Team before acting in
+* Seek consensus among contributors and the core team before acting in
 a formal capacity,
 * Act as a "court of final appeal" for decisions where all other
 methods have failed.
@@ -58,22 +73,20 @@ methods have failed.
 The Steering Council has broad authority to make decisions about the
 project.  For example, it can:
 
-* Accept or reject Problem Solving proposals (as described in the
-  [Problem Solving README](https://github.com/Raku/problem-solving))
-* Enforce or update the project's [Code of
-  Conduct](https://github.com/Raku/Raku-Steering-Council/blob/main/papers/code_of_conduct.md)
-* Work with The Raku Foundation to manage any project assets
+* Accept or reject problem-solving proposals
+* Enforce or update the project's code of conduct
+* Work with The Raku Foundation<sup id="a1">[1](#f1)</sup> to manage any project assets
 * Delegate parts of its authority to other subcommittees or
 processes
 
-However, the RSC cannot modify this Code, or affect the membership of
-the Core Team, except via the mechanisms specified in this Code.
+However, they cannot modify this proposal, or affect the membership of
+the core team, except via the mechanisms specified in this proposal.
 
 The Steering Council should look for ways to use these powers as little
 as possible. Instead of voting, it's better to seek consensus. Instead of
-ruling on individual Problem Solving proposals, it's better to define a
-standard process for Problem Solving proposal decision making. It's better
-to modify the Code of Conduct than to rule on individual cases.
+ruling on individual problem-solving proposals, it's better to define a
+standard process for problem-solving proposal decision making. It's better
+to establish a Code of Conduct committee than to rule on individual cases.
 And so on.
 
 To use its powers, the Steering Council votes. Every council member must
@@ -82,7 +95,7 @@ a particular vote must abstain. Passing requires support from a majority
 of non-abstaining council members.
 
 Whenever possible, the council's deliberations and votes shall be held
-in public, such as by the publication of minutes.
+in public.
 
 
 ### Electing the council
@@ -90,22 +103,24 @@ in public, such as by the publication of minutes.
 A council election consists of two phases:
 
 * Phase 1: Candidates advertise their interest in serving. Candidates
-must be nominated by a Core Team member. Self-nominations are
+must be nominated by a core team member. Self-nominations are
 allowed.
 
-* Phase 2: Each Core Team member can vote for zero to five of the
+* Phase 2: Each core team member can vote for zero to five of the
 candidates. Voting is performed anonymously. Candidates are ranked
 by the total number of votes they receive. If a tie occurs, it may
 be resolved by mutual agreement among the candidates, or else the
 winner will be chosen at random.
 
 Each phase lasts one to two weeks, at the outgoing council's discretion.
+For the initial election, both phases will last two weeks.
 
 The election process is managed by a returns officer nominated by the
-outgoing Steering Council. 
+outgoing steering council. For the initial election, the returns
+officer will be Will Coleda.
 
 The council should reflect the diversity of Raku contributors and users,
-and Core Team members are encouraged to vote accordingly.
+and core team members are encouraged to vote accordingly.
 
 ### Term
 
@@ -154,8 +169,8 @@ the resulting vacancies can then be filled as normal.
 ### Ejecting core team members
 
 In exceptional circumstances, it may be necessary to remove someone
-from the Core Team against their will (for example: egregious and
-ongoing Code of Conduct violations.) This can be accomplished by a
+from the core team against their will (for example: egregious and
+ongoing code of conduct violations.) This can be accomplished by a
 Steering Council vote, but unlike other Steering Council votes, this
 requires at least a two-thirds majority. With 7 members voting, this
 means that a 4:3 vote is insufficient; 5:2 in favor is the minimum
@@ -163,19 +178,19 @@ required for such a vote to succeed. In addition, this is the one
 power of the Steering Council which cannot be delegated, and this
 power cannot be used while a vote of no confidence is in process.
 
-If the ejected Core Team member is also on the Steering Council, then
+If the ejected core team member is also on the Steering Council, then
 they are removed from the Steering Council as well.
 
 ### Vote of no confidence
 
-In exceptional circumstances, the Core Team may remove a sitting
+In exceptional circumstances, the core team may remove a sitting
 council member, or the entire council, via a vote of no confidence.
 
-A no-confidence vote is triggered when a Core Team member calls for
+A no-confidence vote is triggered when a core team member calls for
 one publically on an appropriate project communication channel, and
-another Core Team member seconds the proposal.
+another core team member seconds the proposal.
 
-The vote lasts for two weeks. Core Team members vote for or against.
+The vote lasts for two weeks. Core team members vote for or against.
 If at least two thirds of voters express a lack of confidence, then
 the vote succeeds.
 
@@ -187,17 +202,17 @@ Steering Council and the resulting vacancy can be handled in the usual
 way. If a whole-council vote succeeds, the Steering Council is dissolved
 and a new council election is triggered immediately.
 
-The Core Team
+The core team
 -------------
 
 ### Role
 
-The Core Team is the group of trusted volunteers who manage Raku.
+The core team is the group of trusted volunteers who manage Raku.
 They assume many roles required to achieve the project's goals,
 especially those that require a high level of trust. They make the
 decisions that shape the future of the project.
 
-Core Team members are expected to act as role models for the community
+Core team members are expected to act as role models for the community
 and custodians of the project, on behalf of the community and all
 those who rely on Raku.
 
@@ -211,12 +226,12 @@ tracker, the mailing lists, IRC channels, etc.
 
 ### Prerogatives
 
-Core Team members may participate in formal votes, typically to nominate new
+Core team members may participate in formal votes, typically to nominate new
 team members and to elect the Steering Council.
 
 ### Membership
 
-Raku Core team members demonstrate:
+Raku core team members demonstrate:
 
 - a good grasp of the philosophy of the Raku project
 - a solid track record of being constructive and helpful
@@ -242,54 +257,47 @@ infrastructure like packaging, etc.)
 - Other activities not on this list but considered useful for the Raku
 language project
 
-Core Team membership acknowledges sustained and valuable efforts that
+Core team membership acknowledges sustained and valuable efforts that
 align well with the philosophy and the goals of the Raku project.
 
 It is granted by receiving at least two-thirds positive votes of votes
-cast in a Core Team vote and no veto by the Steering Council.
+cast in a core team vote and no veto by the Steering Council.
 
-Core Team members are always looking for promising contributors,
+Core team members are always looking for promising contributors,
 teaching them how the project is managed, and submitting their names
-to the Core Team's vote when they're ready.
+to the core team's vote when they're ready.
 
-There's no time limit on Core Team membership. However, in order to
+There's no time limit on core team membership. However, in order to
 provide the general public with a reasonable idea of how many people
-maintain Raku, Core Team members who have stopped contributing are
+maintain Raku, core team members who have stopped contributing are
 encouraged to declare themselves as "inactive". Those who haven't made
 any non-trivial contribution in two years may be asked to move
 themselves to this category, and moved there if they don't respond. To
 record and honor their contributions, inactive team members will
-continue to be listed alongside active Core Team members; and, if they
+continue to be listed alongside active core team members; and, if they
 later resume contributing, they can switch back to active status at
-will by emailing RSC@raku.org. 
-While someone is in inactive status, though, they lose their
+will. While someone is in inactive status, though, they lose their
 active privileges like voting or nominating for the Steering Council,
 and commit access.
 
-The initial Core Team was comprised of everyone with 
+The initial active core team members will consist of everyone who has
 a commit bit in any the following repositories:
 
-- [Rost](https://github.com/Raku/roast)
-- [Raku Docs](https://github.com/Raku/doc) 
-- [NQP](https://github.com/raku/nqp)
 - [Rakudo](https://github.com/rakudo/rakudo)
+- [NQP](https://github.com/raku/nqp)
 - [MoarVM](https://github.com/MoarVM/MoarVM)
 
-After this document is adopted, all Core Team members who did not vote 
-in either the initial RSC election or in the vote to adopt this Code
-will be assumed to be inactive and will have their status
+After the initial election, anybody who has not committed to these
+repositories in the past two years, and who also did not vote for the
+initial election, will be assumed to be inactive, and have their status
 changed to "inactive", thus revoking their voting rights until they've
-become active again.
-
-The current active and inactive Core Team members are listed in the
-[Raku/Raku-Steering-Council](https://github.com/Raku/Raku-Steering-Council/blob/main/papers/Core_Team.md)
-repository.
+become active again and accepted by a core team vote.
 
 Changing this document
 ----------------------
 
 Changes to this document require at least a two-thirds majority of
-votes cast in a Core Team vote.
+votes cast in a core team vote.
 
 Acknowledgements
 ================
@@ -305,3 +313,4 @@ Text copied from Django used under [their license](https://github.com/django/dja
 public domain.
 
 
+<b id="f1">1</b>Raku Foundation: As part of the "Yet Another Society", [Relationship with The Perl Foundation](https://github.com/Raku/problem-solving/blob/0ac3cb71be630f4b353c3e02775fb8d85d009530/solutions/language/Path-to-Raku.md#relationship-with-the-perl-foundation)  [↩](#a1)
