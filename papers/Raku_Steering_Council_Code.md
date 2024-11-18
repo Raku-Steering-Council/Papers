@@ -94,6 +94,11 @@ either vote or explicitly abstain. Members with conflicts of interest on
 a particular vote must abstain. Passing requires support from a majority
 of non-abstaining council members.
 
+The council must elect a head among its members. The head doesn't have any
+special powers except for the only one: head's vote is counted as the decisive
+one in cases of equal non-abstained votes separation. If previously abstained
+the head must take a side then.
+
 Whenever possible, the council's deliberations and votes shall be held
 in public.
 
