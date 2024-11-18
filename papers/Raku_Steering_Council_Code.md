@@ -174,12 +174,22 @@ ongoing code of conduct violations.) This can be accomplished by a
 Steering Council vote, but unlike other Steering Council votes, this
 requires at least a two-thirds majority. With 7 members voting, this
 means that a 4:3 vote is insufficient; 5:2 in favor is the minimum
-required for such a vote to succeed. In addition, this is the one
-power of the Steering Council which cannot be delegated, and this
-power cannot be used while a vote of no confidence is in process.
+required for such a vote to succeed. Abstaining vote in this case is 
+considered as a vote against meaning that the only case when the 
+ejection decision is accepted is when 5+ votes are in its favor.
+
+A vote of this kind is not limited by any terms and may last as long
+as it is necessary to make sure that either 5 votes are for the 
+ejection or 3 are against it.
+
+In addition, this is the only power of the Steering Council which
+cannot be delegated, and this power cannot be used while a vote of
+no confidence is in process.
 
 If the ejected core team member is also on the Steering Council, then
-they are removed from the Steering Council as well.
+they are removed from the Steering Council as well. This case also 
+changes the balance of the votes by reducing the number of given "for"
+from 5 to 4 making the required balance 4:2.
 
 ### Vote of no confidence
 
