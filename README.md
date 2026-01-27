@@ -15,10 +15,9 @@ A full list of RSC papers is available on the [Papers](papers) page.
 
 The current Raku Steering council members are (in alphabetical order):
 
-- Vadim Belman
 - Geoffrey Broadwell
 - Richard Hainsworth
+- John Haltiwanger
 - Nick Logan
 - Elizabeth Mattijsen
-- Stefan Seifert
 - Daniel Sockwell
