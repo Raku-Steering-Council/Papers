@@ -106,14 +106,17 @@ Conduct:
 Covered Spaces
 ==============
 
-This CoC applies to the `#raku`, `#raku-dev`, and `#moarvm` IRC
-channels; the GitHub repositories under the Raku, Rakudo, and MoarVM
-organizations; the perl6/Raku mailing lists; the Raku Discord channel;
-the r/rakulang subreddit; Rakudo Weekly News; Planet Raku blogs; the 
-Raku dev.to organization; the Rakulang YouTube channel; the 
-rakulang@<!-- -->fosstodon.org Mastodon account; and any other digital spaces
-Raku may establish.  It also applies to all official Raku conferences
-and events, physical or digital.
+This CoC applies to all Raku IRC channels: `#raku`, `#raku-dev`,
+`#moarvm`, `#cro`, `#mugs`, `#raku-steering-council`, `#raku-doc`, 
+`#raku-beginner`, `#raku-community-modules`, `#raku-infra`, and 
+others that may be added from time to time; the GitHub repositories 
+under the Raku, Rakudo, and MoarVM organizations; the perl6/Raku 
+mailing lists; the Raku Discord channel; the r/rakulang subreddit; 
+Rakudo Weekly News; Planet Raku blogs; the Raku dev.to organization; 
+the Rakulang YouTube channel; the rakulang@<!-- -->fosstodon.org 
+Mastodon account; and any other digital spaces Raku may establish.  
+It also applies to all official Raku conferences and events, 
+physical or digital.
 
 Modification
 ============
