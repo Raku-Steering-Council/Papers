@@ -194,6 +194,9 @@ The vote lasts for two weeks. Core team members vote for or against.
 If at least two thirds of voters express a lack of confidence, then
 the vote succeeds.
 
+The acting members of the council are not to take part in the vote
+as to avoid a conflict of interests.
+
 There are two forms of no-confidence votes: those targeting a single
 member, and those targeting the council as a whole. The initial call
 for a no-confidence vote must specify which type is intended. If a
